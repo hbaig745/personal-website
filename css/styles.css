@@ -1,0 +1,198 @@
+html,
+body {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  font-family: monospace;
+  background-image: url("/images/2183603123.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#main-header {
+  height: 100vh;
+  color: rgb(255, 65, 65);
+}
+
+.heading {
+  font-size: 7rem;
+}
+
+.subheading {
+  font-size: 5rem;
+}
+
+.subheading-2 {
+  font-size: 3rem;
+  margin-bottom: 5rem;
+}
+
+.accent-red {
+  color: rgb(255, 65, 65);
+}
+
+.w-5r {
+  width: 7rem;
+}
+.w-4r {
+  width: 6rem;
+}
+.w-3r {
+  width: 5rem;
+}
+
+.menu-line {
+  height: 0.5rem;
+  background-color: grey;
+  margin: 0.3rem 0;
+
+  background: linear-gradient(to left, rgb(255, 65, 65) 50%, grey 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all 0.25s ease-out;
+}
+
+.menu-margin {
+  margin-right: 3rem;
+  margin-top: 3rem;
+}
+
+.text-grey {
+  color: grey;
+}
+
+.nav-button {
+  margin: 1rem 0;
+}
+
+.nav-text {
+  opacity: 0;
+  text-decoration: none;
+}
+
+.text {
+  color: rgb(255, 65, 65);
+  font-size: larger;
+  padding: 5rem;
+}
+
+.nav-text:nth-child(1) {
+  transition: top 0.5s 0.1s, opacity 0.5s 0.1s;
+}
+
+.nav-text:nth-child(2) {
+  transition: top 0.5s 0.3s, opacity 0.5s 0.3s;
+}
+
+.nav-text:nth-child(3) {
+  transition: top 0.5s 0.5s, opacity 0.5s 0.5s;
+}
+
+.nav-text:hover {
+  color: rgb(255, 65, 65);
+  text-decoration: underline;
+}
+
+#menu-button {
+  pointer-events: auto;
+}
+
+#menu {
+  cursor: pointer;
+  pointer-events: none;
+}
+
+#menu:hover {
+  pointer-events: auto;
+}
+
+#menu:hover .nav-text {
+  opacity: 1;
+}
+
+#nav-list {
+  cursor: pointer;
+}
+
+#bottom-arrow {
+  font-size: 5rem;
+  color: grey;
+  margin-bottom: 5rem;
+  transition: 0.5s;
+  background: none;
+  border: none;
+}
+
+#bottom-arrow:hover {
+  color: rgb(255, 65, 65);
+}
+
+.subheading-container {
+  height: 30vh;
+}
+
+.subheading-2-container {
+  height: 5vh;
+}
+
+.logo {
+  width: auto;
+  height: 10rem;
+}
+
+.link {
+  color: grey;
+  font-size: x-large;
+  margin-top: 2rem;
+}
+
+.link:hover {
+  color: rgb(255, 65, 65);
+}
+
+.seperator {
+  margin-bottom: 10rem;
+}
+
+.primary-button {
+  background-color: grey;
+  padding: 0.5rem;
+  transition: 0.5s;
+  border-radius: 0.5rem;
+  width: 15rem;
+  cursor: pointer;
+}
+
+.primary-button:hover {
+  background-color: rgb(255, 65, 65);
+}
+
+ul li {
+  color: red;
+  opacity: 80%;
+}
+
+.project-picture {
+  height: 30rem;
+  width: auto;
+  border: white solid 2px;
+}
+
+.project-headings {
+  margin: 2rem;
+}
+
+.text-input {
+  margin-left: 5rem;
+  width: 20rem;
+  margin-bottom: 3rem;
+}
+
+#form {
+  background-color: rgb(59, 59, 59);
+  border-radius: 10rem;
+  border: red solid 2px;
+  padding: 3rem;
+}

@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+    <script defer src="/js/script.js"></script>
+    <link rel="icon" href="images/favicon.png" />
+    <title>Hamzah Baig</title>
+  </head>
+
+  <body>
+    <div class="w-100 d-flex justify-content-end">
+      <div
+        id="menu"
+        class="container position-fixed d-flex align-items-end flex-column menu-margin"
+      >
+        <div
+          id="menu-button"
+          onclick="openCloseMenu()"
+          class="d-flex align-items-end flex-column"
+        >
+          <div id="menu-line1" class="menu-line w-5r"></div>
+          <div id="menu-line2" class="menu-line w-4r"></div>
+          <div id="menu-line3" class="menu-line w-3r"></div>
+        </div>
+
+        <nav id="navigation">
+          <div id="nav-list" class="d-flex flex-column align-items-end">
+            <a
+              href="#home-page"
+              class="nav-text nav-button text-grey fs-3 fw-bold"
+              >Home</a
+            >
+            <a
+              href="#projects"
+              class="nav-text nav-button text-grey fs-3 fw-bold"
+              >Portfolio</a
+            >
+            <a
+              href="#contact-me"
+              class="nav-text nav-button text-grey fs-3 fw-bold"
+              >Contact me</a
+            >
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <header
+      class="container d-flex justify-content-center align-items-center w-100 flex-column"
+      id="main-header"
+    >
+      <div>
+        <h1 class="fw-bold opacity-75 heading" id="title">Hamzah Baig</h1>
+        <p class="fw-bold text-grey text-center" id="contact-details">
+          hbaig745@gmail.com; Leicester, LE5 1BP; 07852302794;
+        </p>
+      </div>
+      <a
+        href="#contact-me"
+        class="primary-button fw-bold fs-3 text-uppercase text-black text-center text-decoration-none"
+        >Contact</a
+      >
+    </header>
+
+    <footer
+      id="footer"
+      class="container d-flex justify-content-center align-items-center"
+    >
+      <!-- symbol is from https://www.w3schools.com/charsets/tryit.asp?deci=11165-->
+      <button
+        onclick="topFunction()"
+        id="bottom-arrow"
+        class="text-decoration-none position-fixed"
+      >
+        &#11165;
+      </button>
+    </footer>
+
+    <section id="home-page">
+      <div
+        class="container subheading-container w-100 d-flex justify-content-center align-items-center seperator"
+      >
+        <h2 class="accent-red fw-bold subheading">HOME</h2>
+      </div>
+
+      <div class="seperator mx-auto container-fluid">
+        <div class="w-100 d-flex justify-content-center align-items-center">
+          <h3 class="accent-red fw-bold subheading-2">EDUCATION</h3>
+        </div>
+
+        <div
+          id="education"
+          class="d-flex justify-content-evenly align-items-center w-100"
+        >
+          <div
+            class="d-flex flex-column justify-content-center align-items-center col"
+          >
+            <img
+              src="/images/svc-removebg-preview.png"
+              alt=""
+              id="svc-logo"
+              class="logo"
+            />
+            <p class="text">
+              GCSEs<br />
+              Soar Valley College, Leicester, LCE <br />
+              January 2016 - January 2021 <br />
+              All grades at 9-8, Math’s at Grade 9, English Language at Grade 8
+              and English Literature at Grade 8.
+            </p>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center align-items-center col"
+          >
+            <img
+              src="/images/bcsf-removebg-preview.png"
+              alt=""
+              id="bcsf-logo"
+              class="logo"
+            />
+            <p class="text">
+              A-Levels<br />
+              Beauchamp City Sixth Form, Leicester, LCE <br />
+              January 2021 - January 2023 <br />
+              Math’s at Grade A, Computer Science at Grade B, Physics at Grade B
+            </p>
+          </div>
+          <div
+            class="d-flex flex-column justify-content-center align-items-center col"
+          >
+            <img
+              src="/images/aston-removebg-preview.png"
+              alt=""
+              id="aston-logo"
+              class="logo"
+            />
+            <p class="text">
+              Bachelor of Science, Computer Science <br />
+              Aston University, Birmingham, BIR <br />
+              January 2023 - Current <br />
+              Member of Islamic Society and Computer Science Society, Minoring
+              in Arabic.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="seperator">
+        <div class="w-100 d-flex justify-content-center align-items-center">
+          <h3 class="accent-red fw-bold subheading-2">Skills</h3>
+        </div>
+        <div
+          id="skills"
+          class="d-flex align-items-center justify-content-center flex-column"
+        >
+          <ul
+            class="d-flex justify-content-center align-items-center fs-4 text-center w-75"
+          >
+            <li class="col">Excellent Customer Service</li>
+            <li class="col">Exceptional Math’s Skills</li>
+            <li class="col">High Computer Proficiency</li>
+          </ul>
+          <ul
+            class="d-flex justify-content-center align-items-center fs-4 text-center w-75"
+          >
+            <li class="col">Keen to learn</li>
+            <li class="col">Passionate about tech</li>
+            <li class="col">Flexibility</li>
+          </ul>
+          <ul
+            class="d-flex justify-content-center align-items-center fs-4 text-center w-75"
+          >
+            <li class="col">Dependable</li>
+            <li class="col">Verbal Communication</li>
+            <li class="col">Efficiency</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="seperator">
+        <div class="w-100 d-flex justify-content-center align-items-center">
+          <h3 class="accent-red fw-bold subheading-2">WORK EXPERIENCE</h3>
+        </div>
+        <div
+          id="work-experience"
+          class="d-flex justify-content-center flex-column align-items-center"
+        >
+          <img src="images/gower.png" alt="" class="" />
+          <p class="text text-center w-75">
+            <b>ACCOUNTING ASSISTANT 05/2021 - 11/2021</b> <br />
+            <b> Gower Accountancy, Leicester</b> <br />
+            Gathered all banking transactions via statements, recorded activity
+            in Excel format and reconciled balances. Managed daily bookkeeping
+            functions with attention to accounts receivable, accounts payable
+            and banking reconciliation. Calculated, prepared and filed payroll
+            taxes for clients. Worked closely with local businesses to achieve
+            maximum efficiency and customer satisfaction. Gathered banking
+            transactions and recorded it in Excel format to maintain consistent
+            documentation. Scanned, Sorted and Organized companies' invoices and
+            receipts. Developed fundamental abilities in accounting software to
+            expertly manage financial recordkeeping.
+          </p>
+          <blockquote>
+            <p class="accent-red fs-4"><em>"Very Hard Worker"</em></p>
+            <footer class="accent-red fs-4">- My Boss</footer>
+          </blockquote>
+        </div>
+      </div>
+
+      <div class="seperator">
+        <div class="w-100 d-flex justify-content-center align-items-center">
+          <h3 class="accent-red fw-bold subheading-2">Interests/Hobbies</h3>
+        </div>
+        <div
+          id="interests"
+          class="d-flex align-items-center justify-content-center flex-column"
+        >
+          <ul
+            class="d-flex justify-content-center align-items-center fs-4 text-center w-75"
+          >
+            <li class="col">MMA, Muy Thai</li>
+            <li class="col">PC Building</li>
+            <li class="col">Chess</li>
+          </ul>
+          <ul
+            class="d-flex justify-content-center align-items-center fs-4 text-center w-75"
+          >
+            <li class="col">Football</li>
+            <li class="col">Technology</li>
+            <li class="col">Reading</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="seperator">
+        <div class="w-100 d-flex justify-content-center align-items-center">
+          <h3 class="accent-red fw-bold subheading-2">PROGRAMMING LANGUAGES</h3>
+        </div>
+        <div
+          class="container d-flex justify-content-center align-items-center flex-column seperator"
+        >
+          <div class="d-flex justify-content-evenly align-items-center w-100">
+            <img src="/images/java.png" alt="" class="logo" />
+            <p class="text m-auto">
+              I enjoy coding in Java because it feels very rigid and I feel as
+              though I have more control of what's happening in my program.
+              However, I dislike using it as it is a compiled language and takes
+              too long to run my code sometimes. <br /><b>9,5/10</b>
+            </p>
+          </div>
+
+          <div class="d-flex justify-content-evenly align-items-center w-100">
+            <img src="/images/js.png" alt="" class="logo" />
+            <p class="text m-auto">
+              Compared to Java, It feels more smooth to code in JavaScript and
+              feels more natural as it's closer to pseudocode. However, it's
+              alot harder to debug and test as the errors arent recognised until
+              they're run. <br /><b>9/10</b>
+            </p>
+          </div>
+
+          <div class="d-flex justify-content-evenly align-items-center w-100">
+            <img src="/images/html.png" alt="" class="logo" />
+            <p class="text m-auto">
+              As it is technically a markup language and not a real programming
+              language it feels unfair to compare to the other two. HTML is very
+              simple to write but also quite boring as well as there is no
+              "logic". <br /><b>6,5/10</b>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div
+        class="container subheading-container w-100 d-flex justify-content-center align-items-center seperator"
+      >
+        <h2 class="accent-red fw-bold subheading">Portfolio</h2>
+      </div>
+
+      <div
+        class="container d-flex justify-content-center align-items-center flex-column seperator w-100"
+      >
+        <div
+          id="project"
+          class="w-100 d-flex justify-content-center align-items-center flex-column"
+        >
+          <img src="/images/chatcgt.png" alt="" class="project-picture" />
+          <h3 class="accent-red fs-2 fw-bold project-headings">ChatCGT</h3>
+          <p class="accent-red fs-5 text-center">
+            This is a website I created for a local business That helps
+            homeowners with the tax they need to pay on their house. This
+            website was created with react as the frontend framework and styled
+            using bootstrap. <br /><a href="https://chatcgt.co.uk" class="link"
+              >https://chatcgt.co.uk</a
+            >
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="container d-flex justify-content-center align-items-center flex-column seperator w-100"
+      >
+        <div
+          id="project"
+          class="w-100 d-flex justify-content-center align-items-center flex-column"
+        >
+          <img src="/images/beehive.png" alt="" class="project-picture" />
+          <h3 class="accent-red fs-2 fw-bold project-headings">OpenBeehive</h3>
+          <p class="accent-red fs-5 text-center">
+            I worked on this project as a group with other people and we created
+            a responsive website that tracks our homework as the school-made one
+            didnt work on mobile devices and as it had an API we decided to do
+            it ourselves using basic HTML, JS, and CSS.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="container d-flex justify-content-center align-items-center flex-column seperator w-100"
+      >
+        <div
+          id="project"
+          class="w-100 d-flex justify-content-center align-items-center flex-column"
+        >
+          <img src="/images/fitness.png" alt="" class="project-picture" />
+          <h3 class="accent-red fs-2 fw-bold project-headings">
+            Fitness Factory
+          </h3>
+          <p class="accent-red fs-5 text-center">
+            This was the project I submitted for my A Level Computer Science NEA
+            where I built a website for a local gym that allowed people to sign
+            up to the gym and handle all gym related things in one place. Was
+            built using react and basic CSS styling.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-me">
+      <div
+        class="container subheading-container w-100 d-flex justify-content-center align-items-center seperator"
+      >
+        <h2 class="accent-red fw-bold subheading">CONTACT ME</h2>
+      </div>
+
+      <div class="w-100 d-flex justify-content-center align-items-center">
+        <h3 class="accent-red fw-bold subheading-2">ENQUIRE</h3>
+      </div>
+
+      <form>
+        <div class="mx-auto d-flex justify-content-center align-items-center">
+          <div
+            id="form"
+            class="w-50 d-flex align-items-center flex-column seperator"
+          >
+            <div class="d-flex w-75">
+              <label for="name" class="contact-label fs-3 accent-red col"
+                >Name</label
+              >
+              <input
+                type="text"
+                placeholder="Full Name"
+                name="name"
+                id="name"
+                class="text-input col"
+              />
+            </div>
+
+            <div class="d-flex w-75">
+              <label for="project" class="contact-label fs-3 accent-red col"
+                >Project Name</label
+              >
+              <input
+                type="text"
+                placeholder="Project Name"
+                name="project"
+                id="project"
+                class="text-input col"
+              />
+            </div>
+
+            <div class="d-flex w-75">
+              <label for="duration" class="contact-label fs-3 accent-red col"
+                >Duration</label
+              >
+              <input
+                type="text"
+                placeholder="Duration"
+                name="duration"
+                id="duration"
+                class="text-input col"
+              />
+            </div>
+
+            <div class="d-flex w-75">
+              <label for="date" class="contact-label fs-3 accent-red col"
+                >Date</label
+              >
+              <input type="date" name="date" id="date" class="text-input col" />
+            </div>
+
+            <div class="d-flex w-75">
+              <label for="number" class="contact-label fs-3 accent-red col"
+                >Phone Number</label
+              >
+              <input
+                type="number"
+                placeholder="Phone Number"
+                name="number"
+                id="number"
+                class="text-input col"
+              />
+            </div>
+
+            <div class="d-flex w-75">
+              <label for="email" class="contact-label fs-3 accent-red col"
+                >Email</label
+              >
+              <input
+                type="email"
+                placeholder="Email"
+                name="email"
+                id="email"
+                class="text-input col"
+              />
+            </div>
+
+            <div class="d-flex w-75">
+              <label
+                for="confirmemail"
+                class="contact-label fs-3 accent-red col"
+                >Confirm Email</label
+              >
+              <input
+                type="email"
+                placeholder="Confirm Email"
+                name="confirmemail"
+                id="confirmemail"
+                class="text-input col"
+              />
+            </div>
+
+            <div class="d-flex w-75">
+              <label
+                for="contactMethod"
+                class="contact-label fs-3 accent-red col"
+                >Preferred Contact</label
+              >
+              <select name="contactMethod" id="contact" class="text-input col">
+                <option value="email">Email</option>
+                <option value="phone">Phone Number</option>
+                <option value="letter">Letter</option>
+              </select>
+            </div>
+
+            <div class="d-flex w-75">
+              <label for="description" class="contact-label fs-3 accent-red col"
+                >Description</label
+              >
+              <textarea
+                rows="10"
+                placeholder="Type Description here..."
+                name="description"
+                id="description"
+                class="text-input col"
+              >
+              </textarea>
+            </div>
+
+            <submit
+              id="submit"
+              class="primary-button fs-2 text-center"
+              onclick="submitData()"
+              >SUBMIT</submit
+            >
+          </div>
+        </div>
+      </form>
+
+      <div
+        id="social-media"
+        class="container mx-auto d-flex justify-content-evenly align-items-center w-100 seperator"
+      >
+        <a href="https://github.com/hbaig745" target="_blank"
+          ><img src="/images/GitHub-logo.png" alt="github logo" class="logo"
+        /></a>
+        <a href="https://linkedin.com" target="_blank"
+          ><img src="/images/linkedin.png" alt="linked in logo" class="logo"
+        /></a>
+        <a href="https://facebook.com" target="_blank"
+          ><img src="/images/facbook.png" alt="facebook logo" class="logo"
+        /></a>
+      </div>
+    </section>
+  </body>
+</html>
